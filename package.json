@@ -1,0 +1,16 @@
+{
+  "name": "estrain",
+  "version": "1.0.0",
+  "description": "es6 training",
+  "main": "script.js",
+  "scripts": {
+    "start": "babel script.js --watch --out-file script-compiled.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pawel",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
